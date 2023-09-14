@@ -1,10 +1,47 @@
 #NYtime{
-    background-color: #e9ecef;
+    background-color: #b09572;
 }
 
 #GMTTime {
-    background-color: #e9ecef;
+    background-color: #b09572;
 }
 #BSTtime {
-    background-color: #e9ecef;
+    background-color: #b09572;
+}
+
+body{
+    background-image: url(clock.jpg);
+    background-size: contain;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: bisque;
+    border-radius: 0.3rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #00ff3b;
+}
+
+.display-4{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: math;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #b09572;
 }
